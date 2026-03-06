@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgb(204, 133, 0);
+    background-color: orange;
+    font-family: 'Comic Sans MS';
+    color: rgb(122, 73, 73);
+}
+body{
+    background: url('https://as1.ftcdn.net/jpg/02/62/33/10/1000_F_262331026_EiSuAuqQAt0Xs69RoFHceYiy2E0xKXkP.jpg');
+}
+header h1 {
+    font-family: 'Amatic SC', cursive; 
+    font-size: 4rem;
+}
+
+#conteudo {
+    border: 1px solid orangered;
+    background-color: rgba(255, 168, 136, 0.95);
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3); 
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+}
+#conteudo h3 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem;
+    color: #8b0000;
+    margin-bottom: 15px;
+}
+
+#conteudo p {
+    line-height: 1.6; 
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+#conteudo h3{
+    text-align: center;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(40, 50, 60);
+    color: #f0f0f0;
+    font-family: 'Comic Sans MS', cursive;
+    border-top: 3px solid rgb(204, 133, 0); 
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+#conteudo a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #d32f2f; /* Vermelho pizza */
+    color: white;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Efeito ao passar o mouse */
+#conteudo a:hover {
+    background-color: #b71c1c;
+    transform: scale(1.1); 
+}
+.conteudo-cardapio{
+       border: 1px solid orangered;
+        background-color: rgba(255, 168, 136, 0.95);
+        width: 25%;
+        position: relative;
+        left: 12.5%;
+        margin-top: 25px;
+        margin-bottom: 25px; 
+        border-radius: 5px; 
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.3); 
+        font-family: 'Arial', sans-serif; 
+}
+
+
+.conteudo-cardapio {
+    background-color: #fff9f0; 
+    background-image: radial-gradient(#ffdfba 0.5px, transparent 0.5px);
+    background-size: 10px 10px; 
+    width: 85%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 4px double #8b0000; 
+    border-radius: 10px;
+    box-shadow: 8px 8px 0px #d32f2f; 
+}
+
+.conteudo-cardapio h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    color: #d32f2f;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #8b0000;
+}
+
+.conteudo-cardapio ol, .conteudo-cardapio ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.conteudo-cardapio li {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+    padding: 12px 5px;
+    border-bottom: 1px dashed #cca485;
+    display: flex;
+    justify-content: space-between; 
+    transition: background 0.3s;
+}
+
+.conteudo-cardapio li:hover {
+    background-color: #ffe4c4;
+    cursor: pointer;
+}
+
+
+.imagem-referente-cardapio, .conteudo-referente-cardapio {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagem-referente-cardapio img, .conteudo-referente-cardapio img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 8px solid #fff;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
